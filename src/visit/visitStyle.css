@@ -1,0 +1,32 @@
+/* -------------------- visit-------------------- */
+.visit-style{
+    color: rgb(75, 99, 90);
+    text-align: center;
+    
+
+
+}
+.set-address{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    height: auto;
+    letter-spacing: 2.5199999809265137px;
+    line-height: 80px;
+    }
+
+    a { color: inherit; } 
+    .set-open-day{
+        font-size: 20px;
+    }
+
+    .set-open-time{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;
+        line-height: 0px;
+        
+    }
+
+
+  

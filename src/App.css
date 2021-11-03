@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+/* -------------------- 横线-------------------- */
+.block {
+  height: 1px;
+  width: 100%;
+  grid-template-columns: 1fr 20px 1fr;
+  grid-template-rows: 1fr;
+  background-color: rgb(255, 255, 255);
+}
+
+hr {
+  margin: auto;
+  border: 1 px solid rgb(12, 8, 8);
+}
+
