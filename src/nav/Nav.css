@@ -1,6 +1,6 @@
 /* --------------------nav page-------------------- */
 
-nav{
+/* nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,28 +9,50 @@ nav{
     background: rgb(75, 99, 90);
     color: rgb(0, 0, 0);  
     text-decoration: none;
-  }
+  } */
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+  background-color: rgb(75, 99, 90);
+  font-size: 40px;
+}
+
+/* --------------------nav structure-------------------- */
+.nav-left {
+  padding: 10px;
+}
+
+.nav-logo {
+  padding: 10px;
+}
+
+.nav-right {
+  padding: 10px;
+}
+
+/* --------------------nav links-------------------- */
+/* .logo-links {
   
-  .logo {
-    width: 20%;
-  }
-  
-  .logo-image {
-    display: flex;
-    max-width: 80%;
-  }
-  
-  .nav-links{
-  
-    width: 30%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    list-style: none;
-    font-size: 200%;
-    font-weight: 500;
-  }
-  
-  a {
-    text-decoration: none;
-  }
+} */
+
+/* --------------------nav logo-------------------- */
+.logo-image {
+  width: 300px;
+}
+
+
+
+/* .nav-links{
+
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  font-size: 200%;
+  font-weight: 500;
+} */

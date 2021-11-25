@@ -1,50 +1,53 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+
 import './Nav.css';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Home from '../Home';
-import Visit from '../visit/Visit';
-
-
 
 function Nav() {
 
-const navStyle = {
-    color: 'black',
-}; //改变link中字体的颜色
+  const navStyle = {
+    // color: 'black',
+  };
 
-return (
-  <Router>
-    <nav>
-      <div className="logo">
-       <img className="logo-image" src="./images/logo.png" alt="" />
-      </div> 
-      <ul className= "nav-links"> 
-        <Link style ={navStyle} to ='/Home'>
-            <li>Jungle</li>
+  return (
+    <div className='nav'>
+      {/* <nav>
+        <div className="logo">
+          <Link to='/home'>
+            <img className="logo-image" src="./images/logo.png" alt="" />
+          </Link>
+        </div>
+
+        <ul className="nav-links">
+          <Link to='/menu'>
+            <a href="#Menu">Menu</a>
+          </Link>
+          <Link to='/visit'>
+            <li>Visit</li>
+          </Link>
+        </ul>
+      </nav> */}
+
+      <div className='nav-left nav-links'>
+        <Link to='/menu'>
+          Menu
         </Link>
-        <Link tyle ={navStyle} to ='/menu'>
-        <div style ={navStyle}>
-          <a href="#Menu">Menu</a>
-        </div >
+      </div>
+
+      <div className='nav-logo'>
+        <Link to='/home'>
+          <img className="logo-image" src="./images/logo.png" alt="" />
         </Link>
-        <Link style ={navStyle} to ='/Visit'>
-          <li>Visit</li>
-        </Link> 
-        {/* <Link style ={navStyle} to ='/Others'>
-          <li>Others</li>
-        </Link> */}
-      </ul>
-    </nav>
-    <div class="block" >
-      <hr />
+      </div>
+
+      <div className='nav-right nav-links'>
+        <Link to='/visit'>
+          Visit
+        </Link>
+      </div>
     </div>
 
-    <Route path="/home" exact component={Home} />
-    {/* <Route path="/menu" exact component={Menu} /> */}
-    <Route path="/visit" exact component={Visit} />
-    {/* <Route path="/others" component={Others} /> */}
-  </Router>
-  );//链接设置
+  );
 }
 
 export default Nav;
