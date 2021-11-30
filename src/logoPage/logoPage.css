@@ -1,0 +1,61 @@
+.logoPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  height: 90vh;
+
+  background-color: rgb(22, 39, 33);
+}
+
+.logoPage-menu {
+  /* margin-bottom: 7%; */
+
+  color: rgb(202, 168, 94);
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1;
+
+  background-color: rgb(22, 39, 33);
+
+  padding: 8px;
+
+  cursor: pointer;
+
+  border: solid;
+}
+
+.logoPage-menu:hover {
+  color: rgb(22, 39, 33);
+  background-color: rgb(202, 168, 94);
+  border-color: rgb(202, 168, 94);
+}
+
+.logoPage-logo-image {
+  max-width: 80%;
+}
+
+.logoPage-booking {
+  padding-bottom: 5%;
+
+
+}
+
+.logoPage-button {
+  color: rgb(22, 39, 33);
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.2;
+
+  background-color: rgb(202, 168, 94);
+
+  /* padding-bottom: 5px; */
+  padding: 13px;
+  /* max-width: 50%; */
+
+  cursor: pointer;
+
+  /* border-style: solid; */
+  border-radius: 4px;
+}

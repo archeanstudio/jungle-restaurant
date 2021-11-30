@@ -1,0 +1,47 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+
+  font-size: 60px;
+  font-weight: 200;
+
+  height: 50vh;
+
+  color: rgb(222, 233, 241);
+  
+  background-image: url('./jungle-place.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(129, 151, 143);
+}
+
+/* .menu { 
+  position: relative; 
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./jungle-place.jpg');
+  background-size: cover;
+} */
+
+.menu::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.menu-logo-image {
+  position: relative;
+  width: 500px;
+  max-width: 50%;
+
+}

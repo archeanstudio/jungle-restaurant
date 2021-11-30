@@ -1,0 +1,24 @@
+.story {
+
+  padding: 3% 10% 3% 10%;
+}
+
+.story-title {
+  font-size: 40px;
+  color: rgb(202, 168, 94);
+
+  text-align: start;
+
+  padding-bottom: 40px;
+}
+
+.story-text {
+  font-size: 20px;
+  color: rgb(22, 39, 33);
+
+  text-align: start;
+}
+
+.story-para {
+  padding-bottom: 20px;
+}
