@@ -11,12 +11,14 @@ const MainPage = () => {
   return (
     <div>
       <LogoPage />
+      
       <Story />
-      {/* <Menu /> */}
-      <HomePage />
       <Menu />
+      {/* <Menu /> */}
+      {/* <HomePage /> */}
+      
       <Visit />
-      <Booking />
+      {/* <Booking /> */}
     </div>
   )
 }

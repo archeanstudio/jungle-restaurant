@@ -1,0 +1,44 @@
+.booking {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: var(--main-color-1);
+
+  font-size: 30px;
+
+  color: var(--main-color-2);
+}
+
+.booking-inputBlock {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 15px;
+}
+
+.booking-input {
+  height: 30px;
+  width: 300px;
+  border: solid 5px var(--main-color-2);
+
+  margin-top: 10px;
+
+  background-color: rgb(240, 229, 208);
+}
+
+.booking-text {
+  font-size: 25px;
+  padding-top: 40px;
+}
+
+.booking-button {
+  padding: 3px;
+  margin: 20px;
+  
+  width: fit-content;
+  border: solid var(--main-color-2);
+}
